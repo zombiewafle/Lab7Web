@@ -5,7 +5,7 @@ let opcionInicial = document.getElementById("startOption");
 let text = document.createTextNode("Iniciar historia interactiva");
 let link = document.createElement("a");
 
-link.href = "./page1/page1.html";
+link.href = "../src/page1/page1.html";
 
 link.appendChild(text);
 

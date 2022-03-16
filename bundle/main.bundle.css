@@ -55,7 +55,7 @@ hr {
   \********************************************************************/
 @font-face{
     font-family: startText;
-    src: url(f594048aca20b45e11de.ttf);
+    src: url(f594048aca20b45e11de.ttf) format ("ttf"); 
 }
 
 
@@ -79,6 +79,8 @@ h1{
     font-family: startText;
     color: white;
 }
+
+
 
 
 hr {

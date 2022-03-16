@@ -1,6 +1,6 @@
 @font-face{
     font-family: startText;
-    src: url(../../assets/Font.ttf);
+    src: url("../../assets/Font.ttf") format ("ttf"); 
 }
 
 
@@ -24,6 +24,8 @@ h1{
     font-family: startText;
     color: white;
 }
+
+
 
 
 hr {
