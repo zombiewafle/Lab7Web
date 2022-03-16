@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-preset-atomic": "^4.3.0",
     "clean-webpack-plugin": "^4.0.0",
     "core-js": "^3.21.1",
     "css-loader": "^6.7.1",

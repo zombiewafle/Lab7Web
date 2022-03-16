@@ -8,8 +8,17 @@ const presets = [
           chrome: "67",
           safari: "11.1",
         },
-      },
+      }, 
     ],
+    [
+        "babel-preset-atomic", 
+       {
+          "targets": {
+              "electron": 9
+            }
+        },
+    ], 
+
   ];
   
   module.exports = { presets };
