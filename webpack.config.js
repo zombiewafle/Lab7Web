@@ -9,7 +9,7 @@ module.exports = {
     entry: "./src/index.js", 
     output: {
         filename: "main.bundle.js", 
-        path: path.resolve(__dirname, "bundle"), 
+        path: path.resolve(__dirname, "output_babel"), 
     }, 
     //plugins
     
@@ -30,6 +30,17 @@ module.exports = {
                     "css-loader", 
                 ], 
             },
+
+            {
+                test: /\.m?js$/, 
+                exclude: /(node_modules)/, 
+                use: {
+                    loader: 'babel-loader', 
+                    options: {
+                        presets: ['@babel/preset-env']
+                    }
+                }
+            }, 
             
             {
                 test: /\.html$/, 
